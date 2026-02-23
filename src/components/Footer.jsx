@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="space-y-4">
                         <h2 className="text-2xl font-bold tracking-tighter">
                             <a href="#home" className="text-gradient">
-                                Raghu D<span className="text-white">.</span>
+                                Dharsan R<span className="text-white"></span>
                             </a>
                         </h2>
                         <p className="text-slate-400 text-sm max-w-xs leading-relaxed">
@@ -41,7 +41,7 @@ const Footer = () => {
                         <h3 className="text-white font-bold mb-6">Connect</h3>
                         <div className="flex gap-4">
                             <a
-                                href="https://github.com"
+                                href="https://github.com/Dharsan0810"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-indigo-500 transition-all hover:bg-indigo-500/10"
@@ -50,7 +50,7 @@ const Footer = () => {
                                 <FiGithub size={18} />
                             </a>
                             <a
-                                href="https://linkedin.com"
+                                href="www.linkedin.com/in/dharsan122005"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-indigo-500 transition-all hover:bg-indigo-500/10"
@@ -59,7 +59,7 @@ const Footer = () => {
                                 <FiLinkedin size={18} />
                             </a>
                             <a
-                                href="mailto:hello@example.com"
+                                href="mailto:dharsan.r0810@gmail.com"
                                 className="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-indigo-500 transition-all hover:bg-indigo-500/10"
                                 aria-label="Email"
                             >
@@ -71,11 +71,9 @@ const Footer = () => {
 
                 <div className="pt-8 border-t border-slate-800/80 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-slate-500 text-sm">
-                        &copy; {currentYear} Raghu D. All rights reserved.
+                        &copy; {currentYear} Dharsan R. All rights reserved.
                     </p>
-                    <p className="text-slate-600 text-sm flex items-center gap-1">
-                        Built with <span className="text-indigo-500">React</span> & <span className="text-indigo-500">Tailwind</span>
-                    </p>
+                   
                 </div>
             </div>
         </footer>
@@ -83,3 +81,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
