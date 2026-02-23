@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e1b4b; /* deep violet/blue dark */
+  --color-secondary: #312e81; 
+  --color-accent: #6366f1; /* purple/blue bright */
+  --color-accent-light: #818cf8;
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-bg-dark: #0f172a; /* slate 900 */
+  --color-bg-card: #1e293b; /* slate 800 */
+  
+  --font-sans: "Inter", "Poppins", sans-serif;
+  
+  /* we can add shadows, radius etc here for v4 */
+}
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500/30;
+  }
+}
+
+/* Reusable utilities for glassmorphism and animations */
+@layer utilities {
+  .glass {
+    @apply bg-slate-800/50 backdrop-blur-md border border-slate-700/50 shadow-xl;
+  }
+  
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 shadow-lg rounded-2xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-purple-400;
+  }
+}
