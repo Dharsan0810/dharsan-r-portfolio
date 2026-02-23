@@ -4,6 +4,8 @@ const About = () => {
     return (
         <section id="about" className="py-24 relative">
             <div className="container mx-auto px-6 md:px-12">
+
+                {/* Heading */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -18,6 +20,7 @@ const About = () => {
                 </motion.div>
 
                 <div className="flex flex-col md:flex-row gap-12 items-center">
+
                     {/* Text Content */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -27,10 +30,11 @@ const About = () => {
                         className="flex-1 space-y-6"
                     >
                         <p className="text-lg text-slate-300 leading-relaxed">
-                            I am a dedicated Engineering student pursuing my B.E/B.Tech degree. With a strong passion for technology and innovation, I specialize in building scalable web applications and exploring the fascinating world of Artificial Intelligence and Machine Learning.
+                            I am a Computer Science Engineering student and aspiring Full Stack Web Developer with hands-on experience in building scalable and responsive web applications. I work with modern technologies including React.js, Node.js, Express.js and Firebase to create clean and user-friendly interfaces along with secure backend services.
                         </p>
+
                         <p className="text-lg text-slate-300 leading-relaxed">
-                            My career objective is to leverage my technical skills and problem-solving abilities to contribute to impactful projects while continuously learning and growing in a professional environment. I am highly motivated, placement-ready, and eager to take on new challenges.
+                            Through internships and real-world projects such as an E-commerce platform, Netflix Clone and cloud-deployed applications, I have gained practical knowledge in frontend development, backend integration, authentication systems and database management. I am passionate about cloud computing, AI technologies and continuously improving my development skills.
                         </p>
 
                         {/* Education Highlight */}
@@ -38,8 +42,12 @@ const About = () => {
                             <h3 className="text-xl font-bold text-white mb-2">Education</h3>
                             <div className="space-y-3">
                                 <div>
-                                    <h4 className="font-semibold text-indigo-300">B.E/B.Tech in Engineering</h4>
-                                    <p className="text-sm text-slate-400">College Name Here • Expected 202X</p>
+                                    <h4 className="font-semibold text-indigo-300">
+                                        B.E. Computer Science Engineering
+                                    </h4>
+                                    <p className="text-sm text-slate-400">
+                                        Panimalar Engineering College, Chennai • Expected Graduation: May 2027
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -54,22 +62,26 @@ const About = () => {
                         className="flex-1 w-full grid grid-cols-2 gap-4"
                     >
                         <div className="glass-card p-6 text-center transform hover:-translate-y-2 transition-transform duration-300">
-                            <div className="text-4xl font-bold text-indigo-400 mb-2">10+</div>
-                            <div className="text-sm text-slate-300">Projects Completed</div>
+                            <div className="text-4xl font-bold text-indigo-400 mb-2">4+</div>
+                            <div className="text-sm text-slate-300">Major Projects</div>
                         </div>
+
                         <div className="glass-card p-6 text-center transform hover:-translate-y-2 transition-transform duration-300">
-                            <div className="text-4xl font-bold text-purple-400 mb-2">5+</div>
+                            <div className="text-4xl font-bold text-purple-400 mb-2">8+</div>
                             <div className="text-sm text-slate-300">Certifications</div>
                         </div>
+
                         <div className="glass-card p-6 text-center transform hover:-translate-y-2 transition-transform duration-300">
-                            <div className="text-4xl font-bold text-blue-400 mb-2">2+</div>
-                            <div className="text-sm text-slate-300">Hackathons</div>
+                            <div className="text-4xl font-bold text-blue-400 mb-2">3+</div>
+                            <div className="text-sm text-slate-300">Internships</div>
                         </div>
+
                         <div className="glass-card p-6 text-center transform hover:-translate-y-2 transition-transform duration-300">
                             <div className="text-4xl font-bold text-emerald-400 mb-2">100%</div>
-                            <div className="text-sm text-slate-300">Dedication</div>
+                            <div className="text-sm text-slate-300">Commitment</div>
                         </div>
                     </motion.div>
+
                 </div>
             </div>
         </section>
