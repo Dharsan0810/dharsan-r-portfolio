@@ -37,7 +37,7 @@ const Navbar = () => {
                     className="text-2xl font-bold tracking-tighter"
                 >
                     <a href="#home" className="text-gradient">
-                        Raghu D<span className="text-white">.</span>
+                        Dharsan R<span className="text-white"></span>
                     </a>
                 </motion.div>
 
@@ -94,3 +94,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
