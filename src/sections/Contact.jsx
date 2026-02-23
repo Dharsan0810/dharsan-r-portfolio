@@ -20,11 +20,13 @@ const Contact = () => {
                     </h2>
                     <div className="w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
                     <p className="mt-6 text-slate-400 max-w-2xl mx-auto text-lg">
-                        I'm currently looking for new placement opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                        I'm currently looking for placement opportunities as a Full Stack Developer. 
+                        Feel free to contact me anytime!
                     </p>
                 </motion.div>
 
                 <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-12">
+
                     {/* Contact Info */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
@@ -37,35 +39,40 @@ const Contact = () => {
                             <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
 
                             <div className="space-y-6">
-                                <a href="mailto:hello@example.com" className="flex items-start gap-4 text-slate-300 hover:text-indigo-400 transition-colors group">
+
+                                {/* EMAIL */}
+                                <a href="mailto:dharsan.r0810@gmail.com" className="flex items-start gap-4 text-slate-300 hover:text-indigo-400 transition-colors group">
                                     <div className="w-12 h-12 rounded-full glass flex items-center justify-center shrink-0 group-hover:bg-indigo-500/20">
                                         <FiMail className="w-5 h-5" />
                                     </div>
                                     <div>
                                         <h4 className="text-white font-medium mb-1">Email</h4>
-                                        <p className="text-sm">hello@example.com</p>
+                                        <p className="text-sm">dharsan.r0810@gmail.com</p>
                                     </div>
                                 </a>
 
-                                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-start gap-4 text-slate-300 hover:text-indigo-400 transition-colors group">
+                                {/* LINKEDIN */}
+                                <a href="https://www.linkedin.com/in/dharsan122005/" target="_blank" rel="noreferrer" className="flex items-start gap-4 text-slate-300 hover:text-indigo-400 transition-colors group">
                                     <div className="w-12 h-12 rounded-full glass flex items-center justify-center shrink-0 group-hover:bg-indigo-500/20">
                                         <FiLinkedin className="w-5 h-5" />
                                     </div>
                                     <div>
                                         <h4 className="text-white font-medium mb-1">LinkedIn</h4>
-                                        <p className="text-sm">Connect with me</p>
+                                        <p className="text-sm">www.linkedin.com/in/dharsan122005</p>
                                     </div>
                                 </a>
 
-                                <a href="https://github.com" target="_blank" rel="noreferrer" className="flex items-start gap-4 text-slate-300 hover:text-indigo-400 transition-colors group">
+                                {/* GITHUB */}
+                                <a href="https://github.com/Dharsan0810" target="_blank" rel="noreferrer" className="flex items-start gap-4 text-slate-300 hover:text-indigo-400 transition-colors group">
                                     <div className="w-12 h-12 rounded-full glass flex items-center justify-center shrink-0 group-hover:bg-indigo-500/20">
                                         <FiGithub className="w-5 h-5" />
                                     </div>
                                     <div>
                                         <h4 className="text-white font-medium mb-1">GitHub</h4>
-                                        <p className="text-sm">View my repositories</p>
+                                        <p className="text-sm">github.com/Dharsan0810</p>
                                     </div>
                                 </a>
+
                             </div>
                         </div>
                     </motion.div>
@@ -79,6 +86,7 @@ const Contact = () => {
                         className="lg:col-span-3"
                     >
                         <form className="glass p-8 rounded-2xl space-y-6" onSubmit={(e) => e.preventDefault()}>
+
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label htmlFor="name" className="text-sm font-medium text-slate-300">Your Name</label>
@@ -86,17 +94,18 @@ const Contact = () => {
                                         type="text"
                                         id="name"
                                         className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
-                                        placeholder="John Doe"
+                                        placeholder="Your Name"
                                         required
                                     />
                                 </div>
+
                                 <div className="space-y-2">
                                     <label htmlFor="email" className="text-sm font-medium text-slate-300">Your Email</label>
                                     <input
                                         type="email"
                                         id="email"
                                         className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
-                                        placeholder="john@example.com"
+                                        placeholder="yourmail@example.com"
                                         required
                                     />
                                 </div>
@@ -108,7 +117,7 @@ const Contact = () => {
                                     type="text"
                                     id="subject"
                                     className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
-                                    placeholder="Opportunity / Inquiry"
+                                    placeholder="Opportunity / Collaboration"
                                     required
                                 />
                             </div>
@@ -119,7 +128,7 @@ const Contact = () => {
                                     id="message"
                                     rows="5"
                                     className="w-full bg-slate-900/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors resize-none"
-                                    placeholder="Hello Raghu, I'd like to talk about..."
+                                    placeholder="Hello Dharsan R, I'd like to talk about..."
                                     required
                                 ></textarea>
                             </div>
@@ -131,6 +140,7 @@ const Contact = () => {
                                 <span>Send Message</span>
                                 <FiSend />
                             </button>
+
                         </form>
                     </motion.div>
                 </div>
