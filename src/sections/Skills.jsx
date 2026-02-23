@@ -7,29 +7,33 @@ const skillCategories = [
         title: 'Programming Languages',
         skills: [
             { name: 'Java', icon: <FaJava className="text-[#f89820]" />, level: 85 },
-            { name: 'Python', icon: <FaPython className="text-[#3776ab]" />, level: 80 },
-            { name: 'C++', icon: <SiCplusplus className="text-[#00599c]" />, level: 75 },
+            { name: 'Python', icon: <FaPython className="text-[#3776ab]" />, level: 70 },
+            { name: 'C Programming', icon: <div className="text-blue-400 text-xl font-bold">C</div>, level: 85 },
+            { name: 'JavaScript', icon: <SiJavascript className="text-[#f7df1e]" />, level: 70 },
+            { name: 'TypeScript', icon: <div className="text-blue-500 text-xl font-bold">TS</div>, level: 65 },
         ],
     },
     {
         title: 'Web Development',
         skills: [
-            { name: 'HTML & CSS', icon: <FaHtml5 className="text-[#e34f26]" />, level: 90 },
-            { name: 'JavaScript', icon: <SiJavascript className="text-[#f7df1e]" />, level: 85 },
+            { name: 'HTML5', icon: <FaHtml5 className="text-[#e34f26]" />, level: 90 },
+            { name: 'CSS3', icon: <FaCss3Alt className="text-[#1572b6]" />, level: 88 },
             { name: 'React.js', icon: <FaReact className="text-[#61dafb]" />, level: 80 },
             { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-[#06b6d4]" />, level: 85 },
+            { name: 'Firebase', icon: <div className="text-yellow-400 text-xl font-bold">FB</div>, level: 78 },
+            { name: 'MySQL', icon: <div className="text-orange-400 text-xl font-bold">SQL</div>, level: 75 },
         ],
     },
     {
         title: 'Tools & Technologies',
         skills: [
-            { name: 'Git & GitHub', icon: <FaGithub className="text-white" />, level: 85 },
-            { name: 'Vite', icon: <SiVite className="text-[#646cff]" />, level: 80 },
-            { name: 'AI/ML Basics', icon: <div className="text-purple-400 text-xl font-bold">AI</div>, level: 70 },
+            { name: 'Git', icon: <FaGitAlt className="text-[#f1502f]" />, level: 85 },
+            { name: 'GitHub', icon: <FaGithub className="text-white" />, level: 85 },
+            { name: 'AWS (Basics)', icon: <div className="text-orange-400 text-xl font-bold">AWS</div>, level: 70 },
+            { name: 'Postman', icon: <div className="text-orange-500 text-xl font-bold">API</div>, level: 70 },
         ],
     }
 ];
-
 const Skills = () => {
     return (
         <section id="skills" className="py-24 relative bg-slate-900/50">
@@ -97,3 +101,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
