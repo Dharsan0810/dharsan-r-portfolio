@@ -4,24 +4,59 @@ import { FiAward, FiStar, FiMonitor } from 'react-icons/fi';
 const achievements = [
     {
         icon: <FiAward className="w-8 h-8 text-indigo-400" />,
-        title: "AWS Certified Cloud Practitioner",
-        organization: "Amazon Web Services",
-        date: "2023",
-        description: "Demonstrated overall understanding of the AWS Cloud platform, covering basic cloud concepts and security."
+        title: "Full Stack Developer Certification",
+        organization: "Infomatronics Project Services",
+        date: "2024",
+        description: "Certified in full stack web development with hands-on experience in building responsive web applications and integrating backend services."
     },
     {
         icon: <FiMonitor className="w-8 h-8 text-purple-400" />,
-        title: "1st Place - Smart City Hackathon",
-        organization: "TechFest 2023",
-        date: "Oct 2023",
-        description: "Developed an IoT-based predictive model for traffic management, beating out 50+ competing teams."
+        title: "Prompt Engineer Certification",
+        organization: "Infomatronics Project Services",
+        date: "2024",
+        description: "Learned prompt engineering techniques and applied them to improve UI/UX workflows while developing a Netflix Clone project."
     },
     {
         icon: <FiStar className="w-8 h-8 text-blue-400" />,
-        title: "Machine Learning Concepts Specialization",
-        organization: "Coursera (Stanford)",
-        date: "Aug 2022",
-        description: "Completed comprehensive coursework on supervised and unsupervised learning algorithms and implementations."
+        title: "Cloud Computing Engineer",
+        organization: "Corizo",
+        date: "2024",
+        description: "Worked with AWS and Firebase platforms and gained knowledge of cloud service models, scalability and deployment architectures."
+    },
+    {
+        icon: <FiAward className="w-8 h-8 text-pink-400" />,
+        title: "Oracle Generative AI Professional",
+        organization: "Oracle",
+        date: "2024",
+        description: "Certified in Generative AI fundamentals, AI tools usage and real-world applications of large language model technologies."
+    },
+    {
+        icon: <FiMonitor className="w-8 h-8 text-green-400" />,
+        title: "Programming in Java",
+        organization: "NPTEL Online Certification",
+        date: "2024",
+        description: "Covered object-oriented programming, exception handling and core Java development concepts."
+    },
+    {
+        icon: <FiStar className="w-8 h-8 text-yellow-400" />,
+        title: "Data Science for Beginners (Gold)",
+        organization: "NASSCOM",
+        date: "2024",
+        description: "Learned data analysis basics, preprocessing techniques and introductory machine learning concepts."
+    },
+    {
+        icon: <FiAward className="w-8 h-8 text-red-400" />,
+        title: "Cybersecurity Analysis & Design (Silver)",
+        organization: "NASSCOM",
+        date: "2024",
+        description: "Studied cybersecurity fundamentals including risk analysis, threat detection and secure system design practices."
+    },
+    {
+        icon: <FiStar className="w-8 h-8 text-cyan-400" />,
+        title: "Aptis ESOL English Certification (B2)",
+        organization: "British Council",
+        date: "2024",
+        description: "Demonstrated intermediate to advanced English communication proficiency including speaking, writing and comprehension."
     }
 ];
 
@@ -71,3 +106,4 @@ const Achievements = () => {
 };
 
 export default Achievements;
+
