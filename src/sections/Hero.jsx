@@ -74,7 +74,7 @@ const Hero = () => {
                                     RD
                                 </div>
                                 {/* To use an actual image, uncomment below and add to public folder */}
-                                <img src="/profile.jpg" alt="Dharsan R" className="w-full h-full object-cover relative z-10 hover:scale-105 transition-transform duration-500" /> 
+                                <img src="/profile.jpeg" alt="Dharsan R" className="w-full h-full object-cover relative z-10 hover:scale-105 transition-transform duration-500" /> 
                             </div>
                         </div>
 
@@ -104,4 +104,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
