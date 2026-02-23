@@ -28,10 +28,10 @@ const Hero = () => {
                     </motion.div>
                     <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                         Hi, I'm <br />
-                        <span className="text-gradient">Raghu</span>
+                        <span className="text-gradient">Dharsan</span>
                     </h1>
                     <h2 className="text-2xl md:text-3xl text-slate-300 font-medium">
-                        Software Engineer | AI & Full Stack Enthusiast
+                        Software Engineer | Full Stack Enthusiast
                     </h2>
                     <p className="text-slate-400 text-lg md:text-xl max-w-xl mx-auto md:mx-0 leading-relaxed">
                         Motivated engineering student passionate about technology, innovation, and building impactful solutions for the modern web.
@@ -74,7 +74,7 @@ const Hero = () => {
                                     RD
                                 </div>
                                 {/* To use an actual image, uncomment below and add to public folder */}
-                                {/* <img src="/profile.webp" alt="Raghu D" className="w-full h-full object-cover relative z-10 hover:scale-105 transition-transform duration-500" /> */}
+                                <img src="/profile.jpg" alt="Dharsan R" className="w-full h-full object-cover relative z-10 hover:scale-105 transition-transform duration-500" /> 
                             </div>
                         </div>
 
@@ -104,3 +104,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
