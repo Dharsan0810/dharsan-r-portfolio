@@ -2,27 +2,46 @@ import { motion } from 'framer-motion';
 
 const experiences = [
     {
-        role: "Software Engineering Intern",
-        company: "Tech Solutions Inc.",
-        duration: "June 2023 - Present",
+        role: "Full Stack Web Development Intern",
+        company: "Infomatronics Project Services (Remote)",
+        duration: "24 July 2024 – 08 August 2024",
         description: [
-            "Developed responsive web interfaces using React.js and Tailwind CSS, improving user engagement by 25%.",
-            "Collaborated with the backend team to integrate RESTful APIs and ensure seamless data flow.",
-            "Participated in daily stand-ups and agile development cycles, delivering features on schedule."
+            "Developed an E-commerce website using HTML, CSS and JavaScript.",
+            "Built a Dark Web Monitor website using HTML, CSS, JavaScript and TypeScript.",
+            "Implemented responsive UI design and integrated backend functionalities."
         ],
     },
     {
-        role: "Web Development Intern",
-        company: "Digital Innovators Agency",
-        duration: "Jan 2023 - May 2023",
+        role: "Prompt Engineering Intern",
+        company: "Infomatronics Project Services (Remote)",
+        duration: "01 October 2024 – 15 October 2024",
         description: [
-            "Assisted in redesigning the corporate website, focusing on modern UI aesthetics and accessibility.",
-            "Optimized legacy code leading to a 40% reduction in page load times.",
-            "Created reusable UI components that are now part of the company's internal design system."
+            "Created a responsive Netflix Clone using HTML, CSS and TailwindCSS.",
+            "Implemented Firebase Authentication, Firestore database and admin panel for content uploads.",
+            "Applied prompt engineering techniques to improve UI/UX workflow and content handling."
+        ],
+    },
+    {
+        role: "Cloud Computing Intern",
+        company: "Corizo (Remote)",
+        duration: "05 July 2024 – 05 August 2024",
+        description: [
+            "Worked with AWS and Firebase platforms to deploy cloud-based applications.",
+            "Learned cloud service models (IaaS, PaaS, SaaS) and deployment architectures.",
+            "Explored virtualization, scalability and cloud security concepts."
+        ],
+    },
+    {
+        role: "Game Development Intern",
+        company: "Monolith Research and Training Labs Pvt. Ltd.",
+        duration: "02 June 2025 – 01 September 2025",
+        description: [
+            "Gained practical industry exposure in a professional IT development environment.",
+            "Improved technical skills, problem-solving ability and teamwork through project tasks.",
+            "Worked under senior mentors and collaborated in development activities."
         ],
     }
 ];
-
 const Experience = () => {
     return (
         <section id="experience" className="py-24 relative bg-slate-900/50">
@@ -85,3 +104,4 @@ const Experience = () => {
 };
 
 export default Experience;
+
