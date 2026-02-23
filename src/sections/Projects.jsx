@@ -3,39 +3,30 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
     {
-        title: 'AI Chat Assistant',
-        description: 'A responsive AI chatbot application built with React and integrated with open-source LLMs to provide real-time conversational responses.',
-        tech: ['React', 'Tailwind CSS', 'OpenAI API'],
-        github: 'https://github.com',
-        live: 'https://example.com',
-        image: 'bg-gradient-to-br from-blue-600/40 to-indigo-600/40' // placeholder gradient
-    },
-    {
-        title: 'E-Commerce Dashboard',
-        description: 'A full-stack admin dashboard for e-commerce with analytics charting, real-time sales tracking, and inventory management.',
-        tech: ['MERN Stack', 'Redux', 'Recharts'],
-        github: 'https://github.com',
-        live: 'https://example.com',
-        image: 'bg-gradient-to-br from-purple-600/40 to-pink-600/40'
-    },
-    {
-        title: 'Portfolio Generator',
-        description: 'A tool that allows users to input their data and automatically generates a customized, responsive portfolio website.',
-        tech: ['React', 'Vite', 'Framer Motion'],
-        github: 'https://github.com',
+        title: 'E-Commerce Website',
+        description: 'A responsive online shopping platform with product listings, cart functionality and user-friendly interface. Implemented dynamic UI components and client-side validations.',
+        tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+        github: 'https://github.com/Dharsan0810',
         live: '',
-        image: 'bg-gradient-to-br from-teal-600/40 to-emerald-600/40'
+        image: 'bg-gradient-to-br from-blue-600/40 to-indigo-600/40'
     },
     {
-        title: 'Smart Attendance System',
-        description: 'A Python-based facial recognition system to automate student attendance marking, integrated with a local database.',
-        tech: ['Python', 'OpenCV', 'SQLite'],
-        github: 'https://github.com',
+        title: 'Netflix Clone',
+        description: 'A streaming platform clone featuring authentication, content browsing and admin panel for uploads. Implemented Firebase Authentication and Firestore database integration.',
+        tech: ['HTML', 'CSS', 'TailwindCSS', 'Firebase', 'JavaScript'],
+        github: 'https://github.com/Dharsan0810',
         live: '',
-        image: 'bg-gradient-to-br from-orange-600/40 to-red-600/40'
-    }
+        image: 'bg-gradient-to-br from-red-600/40 to-pink-600/40'
+    },
+    {
+        title: 'Dark Web Monitor',
+        description: 'A monitoring website developed using TypeScript that simulates detection of suspicious activities and displays alerts with structured UI components.',
+        tech: ['HTML', 'CSS', 'JavaScript', 'TypeScript'],
+        github: 'https://github.com/Dharsan0810',
+        live: '',
+        image: 'bg-gradient-to-br from-purple-600/40 to-indigo-600/40'
+    },
 ];
-
 const Projects = () => {
     return (
         <section id="projects" className="py-24 relative">
@@ -129,3 +120,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
